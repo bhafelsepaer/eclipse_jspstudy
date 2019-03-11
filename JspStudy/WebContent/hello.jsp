@@ -8,9 +8,9 @@
 </head>
 <body>
 <%
-  String str="테스트";
-  //System.out.println("<h1>JSP Testing!!</h1>");//콘솔->확인용
-  out.println("<h1>"+str+"</h1>");
+  String str="테스트";//
+  //System.out.println("<h1>JSP Testing!!</h1>");
+  out.println("<h1>"+str+"</h1>");//
  %>
 </body>
 </html>
