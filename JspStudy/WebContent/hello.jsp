@@ -12,5 +12,7 @@
   System.out.println("<h1>JSP Testing!!</h1>");
   out.println("<h1>"+str+"</h1>");
  %>
+ <hr>
+ str의 값 출력=<%=str %>
 </body>
 </html>
