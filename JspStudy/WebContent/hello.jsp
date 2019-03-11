@@ -9,9 +9,10 @@
 <body>
 <%
   String str="테스트";
-  //System.out.println("<h1>JSP Testing!!</h1>");
+  System.out.println("<h1>JSP Testing!!</h1>");
   out.println("<h1>"+str+"</h1>");
  %>
- <%=str %>
- </body>
+ <hr>
+ str의 값 출력=<%=str %>
+</body>
 </html>
